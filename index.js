@@ -10,5 +10,5 @@ let nowServing = currentLine => {
     return "There is nobody waiting to be served!"
   }
   else {
-    `Currently serving ${currentLine.shift()}.`
+     return `Currently serving ${currentLine.shift()}.`
   }}
