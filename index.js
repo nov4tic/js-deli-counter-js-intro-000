@@ -6,7 +6,7 @@ let takeANumber = (currentLine, name) => {
 }
 
 let nowServing = currentLine => {
-  if (currentLine !== undefined) {
+  if (currentLine === []) {
     let empty = []
  empty = currentLine.splice((0)[1]);
  return `Currently serving ${empty}.`
