@@ -8,7 +8,7 @@ let takeANumber = (currentLine, name) => {
 let nowServing = currentLine => {
   if (currentLine !== undefined) {
     let empty = []
- empty = currentLine.splice(0)[1]);
+ empty = currentLine.splice((0)[1]);
  return `Currently serving ${empty}.`
  } else { "There is nobody waiting to be served!"
 }
