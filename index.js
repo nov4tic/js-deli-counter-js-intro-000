@@ -19,5 +19,7 @@ let currentLine = katzDeliLine => {
     return "The line is currently empty.";
   } else {
     for (let i = 0; i < katzDeliLine.length; i++) {
-      empty[i] = `The line is currently ${[i + 1] + '. ' + katzDeliLine}`
-}}}
+      empty[i] = `${[i + 1] + '. ' + katzDeliLine}`
+      return empty
+}}
+}
