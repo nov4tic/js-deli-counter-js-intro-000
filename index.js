@@ -10,5 +10,5 @@ let nowServing = currentLine => {
     let empty = []
  empty = currentLine.splice(0[1]);
  return `Currently serving ${empty}.`
- } else { "There is nobody waiting to be served!"
+ } else { return "There is nobody waiting to be served!"
 }}
