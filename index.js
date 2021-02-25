@@ -20,6 +20,7 @@ let currentLine = katzDeliLine => {
   } else {
     for (let i = 0; i < katzDeliLine.length; i++) {
       empty[i] = `${[i + 1]}. ${katzDeliLine[i]}`
-      return empty
+
 }}
+return empty
 }
