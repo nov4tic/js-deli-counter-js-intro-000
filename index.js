@@ -22,5 +22,5 @@ let currentLine = katzDeliLine => {
       empty[i] = `${[i + 1]}. ${katzDeliLine[i]}`
 
 }}
-return empty
+return `The line is currently: ${empty}`
 }
