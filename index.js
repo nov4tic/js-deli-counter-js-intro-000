@@ -5,10 +5,4 @@ let takeANumber = (currentLine, name) => {
     return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
-let nowServing = currentLine => {
-  if (currentLine !== []) {
-    let empty = []
- empty = currentLine.splice(0[1]);
- return `Currently serving ${empty}.`
- } else { return "There is nobody waiting to be served!"
-}}
+let nowServing = currentLine => { currentLine.length === 0 ? "There is nobody waiting to be served" : `Currently serving ${currentline.shift()}`
