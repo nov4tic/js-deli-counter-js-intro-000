@@ -6,9 +6,9 @@ let takeANumber = (currentLine, name) => {
 }
 
 let nowServing = currentLine => {
-  do {
-      let i = currentLine.shift();
-      currentLine !== undefined ? `Currently serving ${currentLine[0]}` : `There is nobody waiting to be served!`
-    }
-    while (i !== undefined)
-    }
+  if (currentLine !== undefined) {
+    let empty = []
+ empty = currentLine.splice(0)[, 1]);
+ return `Currently serving ${empty}.`
+ } else { "There is nobody waiting to be served!"
+}
